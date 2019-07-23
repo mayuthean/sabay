@@ -1,14 +1,12 @@
 body{
     padding: 0;
     margin: 0;
-    background: #F6F6F6;
     color: #fff;
 }
 #wrapper{
     padding: 0;
     margin: 0;
-    overflow: hidden;
-
+    background: #F6F6F6;
 }
 
 /* Top-Header */
@@ -138,6 +136,7 @@ section#content .news-body .label span{
     line-height: 30px; 
     float: left; 
 }
+
 section#content .news-body .label .conner-yellow{
     border-left: 20px solid #F9A62B;
     border-top: 30px solid transparent;
@@ -178,6 +177,9 @@ section#content .news-body .label .conner-pink{
 .bg-pink{
     background: #FA5480;
 }
+.bg-blue{
+    background: #4390F8;
+}
 .text-white{
     color: #fff;
 }
@@ -193,6 +195,9 @@ section#content .news-body .label .conner-pink{
 }
 .bd-yellow{
     border-top: 3px solid #F9A62B;
+}
+.bd-blue{
+    border-top: 3px solid #4390F8;
 }
 
 /*---Slide -----*/
@@ -251,6 +256,7 @@ section#content .left-side .news-right{
     position: relative;
     overflow: hidden;
 }
+/* End News top */
 
 /* Advertise */
 section#content .right-side{
@@ -307,6 +313,19 @@ section#content .category .tap-conner-pink{
     border-top: 45px solid transparent;
     border-bottom: 0px solid transparent;
     border-left: 45px solid #FA5480;
+    float: left;
+}
+section#content .category .tap-conner-yellow{
+    border-top: 45px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 45px solid #F9A62B;
+    float: left;
+}
+
+section#content .category .tap-conner-blue{
+    border-top: 45px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 45px solid #4390F8;
     float: left;
 }
 /* End Category tap conner */
@@ -403,7 +422,7 @@ section#content .contain-small-news .item h5{
 }
 
 /*Big News */
-section#content .contain-big-news{
+section#content .content-ads{
     width: 340px;
     height: 330px;  
     position: relative;
@@ -413,13 +432,24 @@ section#content .contain-big-news{
 
 }
 
-section#content .contain-big-news  img{
+section#content .content-ads img{
     width: 100%;
 }
+section#content .content-ads h4{
+    font-family: 'Battambang', cursive;
+}
+section#content .padding-left{
+    float: left;
+}
+section#content .padding-right{
+    float: right;
+}
+
+
 /*Footer Section  */
 section#footer{
     width: 100%;
-    height: 400px;
+    margin-top: 60px;
     background: black;
     float: left;
 }
