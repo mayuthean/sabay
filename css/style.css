@@ -129,22 +129,21 @@ section#content .news-body .label{
     position: absolute;
     margin-top: 10px;
     z-index: 9999;
-    height: 30px;
 }
 section#content .news-body .label span{
     padding: 0 15px;
     color: white;
     font-size: 13px;
     font-family: Koulen;
-    line-height: 30px;  
+    line-height: 30px; 
+    float: left; 
 }
 section#content .news-body .label .conner-yellow{
-    border-left: 20px solid red;
+    border-left: 20px solid #F9A62B;
     border-top: 30px solid transparent;
     border-bottom: 0px solid transparent;
     position: absolute;
     display: inline-block;
-    top: 0;
 }
 
 section#content .news-body .label .conner-green{
@@ -154,7 +153,7 @@ section#content .news-body .label .conner-green{
     border-bottom: 0px solid transparent;
     position: absolute;
     display: inline-block;
-    top: 0;
+
 }
 
 section#content .news-body .label .conner-pink{
@@ -274,14 +273,16 @@ section#content .ads-right img{
 section#content .category{
     margin-top: 10px;
     display: inline-block;
-
 }
 section#content .category .tap{
     display: inline-block;
     margin-bottom: -10px;
+    box-sizing: border-box;
+    border: 1px solid green;
+    position: relative;
 }
 section#content .category .tap a{
-    display: block;
+    display: inline-block;
     font-size: 20px;
     font-family: Koulen;
     text-decoration: none;
@@ -292,7 +293,6 @@ section#content .category .tap-conner{
     border-top: 60px solid transparent;
     border-bottom: 0px solid transparent;
     border-left: 50px solid red;
-    position: absolute;
     display: inline-block;
 }
 section#content .news-grid{
